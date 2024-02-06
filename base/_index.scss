@@ -1,0 +1,23 @@
+/*
+   this index.scss file for all sass files linkd up 
+*/
+
+// header scss file link here 
+@forward "../base/header";
+
+// hero scss file link here
+
+@forward "../base/hero";
+
+// display books scss file link here
+
+@forward "../base/display_books";
+
+
+// right side search and caragory
+
+@forward "../base/search_cata";
+
+// top books and author focus card style link
+
+@forward "../base/top_books";
