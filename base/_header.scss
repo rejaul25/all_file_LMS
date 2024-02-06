@@ -53,12 +53,14 @@ common button
     }
     .log_in{
         @include log_sign;
-        background: lightgrey;
+ 
          
     }
     .sign_up{
         @include log_sign;
-        background: tomato;
+        background: black;
+        border-radius: 25px;
+        color: #fff;
     }
     
 }
