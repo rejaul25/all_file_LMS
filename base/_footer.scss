@@ -1,0 +1,78 @@
+
+// footer custom margin from top
+
+footer{
+     margin-top: 85px;
+     background: rgb(15, 134, 207);
+     padding: 45px 0px 0px 0px;
+}
+
+
+.footer_left{
+
+    h2{
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        width: 90%;
+        color: #fff;
+    }
+
+    form{
+
+        input{
+            outline: none;
+            border: none;
+            background: #fff;
+            padding: 10px 8px;
+            width: 55%;
+        }
+        button{
+            background: none;
+            border: 2px solid #fff;
+            padding: 8px 14px;
+            font-weight: 600;
+            color: #fff;
+            margin-left: -5px;
+        }
+        button:hover{
+            background: black;
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}
+
+.schedule{
+    ul{
+        list-style-type: none;
+        li{
+          padding: 8px 0px;
+          font-size: 18px;
+          font-weight: 400;
+          color: #fff;
+        }
+    }
+}
+
+.footer_right_top{
+    ul{
+       list-style-type: none;
+      
+        li{
+            display: inline-block;
+            padding: 5px 8px;
+
+            a{
+                font-size: 18px;
+                color: #fff;
+                padding: 8px;
+                 
+            }
+        }
+    }
+}

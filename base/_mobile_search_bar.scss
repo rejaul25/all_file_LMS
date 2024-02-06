@@ -1,0 +1,32 @@
+
+
+.mobile_search_bar{
+    display: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    
+  .hide_for_mobile{
+    display: none;
+  }
+    .mobile_search_bar{
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        z-index: 4444;
+         
+    }
+
+    // slider arrow key
+
+    .slick-prev:before {
+        margin-left: 28px;
+    }
+    
+    .slick-next:before {
+       margin-left: -53px;
+    }
+
+    
+}
