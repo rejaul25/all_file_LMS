@@ -1,0 +1,48 @@
+
+.single_page_book_show, a img{
+    width: 180px;
+    height: auto;
+    // background: rebeccapurple;
+    
+    a img{
+        width: 120px;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 14%;
+    }
+}
+.single_page_book_det{
+    h2,h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    h3{
+        font-size: 15px !important;
+    }
+    p{
+        text-align: center;
+    }
+    .wish_list,.read_now{
+        padding: 5px 11px;
+        border: none;
+        background: tomato;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .read_now{
+        background: rgb(21, 104, 21) !important;
+    }
+
+}
+.single_page_book_show{
+    // background: rebeccapurple;
+
+}
+.single_page_book_show:hover{
+      
+     box-shadow: rgba(77, 5, 5, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(90, 90, 90, 0.09) 0px 32px 16px;
+    //box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
