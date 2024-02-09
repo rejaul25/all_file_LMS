@@ -48,9 +48,9 @@ $(document).ready(function () {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
-            arrows: true,
+            arrows: false,
             dots: true,
             
           }
@@ -77,36 +77,9 @@ $(document).ready(function () {
     
   });
 
-  // another page slider style all catagory
- 
-  // $(document).ready(function(){
-  //   $('.allCataSlider').slick({
-  //     infinite: true,
-  //     slidesToShow: 4,
-  //     autoplay: true,
-  //     arrows: false,
-  //     autoplaySpeed: 3000,
-      
-  //   });
+  
 
-    // Custom button click events
-    //  $('.prev_btn').click(function(){
-    //   $('.allCataSlider').slick('slickPrev');
-    // });
-
-    // $('.next_btn').click(function(){
-    //   $('.allCataSlider').slick('slickNext');
-    // });
-    // // Custom button click events
-    // $('.prev_btn2').click(function(){
-    //   $('.allCataSlider').slick('slickPrev');
-    // });
-
-    // $('.next_btn2').click(function(){
-    //   $('.allCataSlider').slick('slickNext');
-    // }); 
-
-    // lsdfkvn;kdlfnv;kdfv
+    //  this is single page book display slider
     $(document).ready(function(){
       // Initialize first slider
       $('#slider1').slick({
@@ -136,7 +109,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
@@ -172,7 +145,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
@@ -208,7 +181,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
@@ -244,7 +217,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
@@ -280,7 +253,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
@@ -316,7 +289,7 @@ $(document).ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
             }
           }
