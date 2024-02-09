@@ -32,9 +32,11 @@
         font-weight: 500;
         border-radius: 5px;
         color: #fff;
+
     }
     .read_now{
         background: rgb(21, 104, 21) !important;
+        margin-top: 5px;
     }
 
 }
@@ -54,4 +56,10 @@
            align-items: center;
         }
     }
+    //    search bar for mobile
+   .use_for_mobile{
+    .search_bar{
+        display: block ;
+    }
+ }
 }

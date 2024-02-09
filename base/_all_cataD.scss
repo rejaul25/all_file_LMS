@@ -7,6 +7,7 @@
         background: rgb(56, 121, 4);
         border-radius: 3px;
         color: rgb(13, 15, 0);
+        margin: 0px 8px;
     }
     .next_btn{
         background: rgb(1, 1, 8);
@@ -29,4 +30,11 @@
    .single_page_book_det{
     text-align: center;
    }
+
+   //    search bar for mobile
+   .use_for_mobile{
+    .search_bar{
+        display: block ;
+    }
+ }
 }
