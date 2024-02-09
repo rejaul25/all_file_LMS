@@ -429,3 +429,18 @@ $(document).ready(function () {
         $(sliderId).slick('slickNext');
       });
     });
+
+
+    // menubar sticky when scroll amount is more than 100vh
+
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 0.1 * $(window).height()) {
+          // $('.header').css('display', 'none');
+          $('.menubar').addClass('sticky');
+        } else {
+          // $('.header').css('display', 'block');
+          $('.menubar').removeClass('sticky');
+        }
+      });
+    });
