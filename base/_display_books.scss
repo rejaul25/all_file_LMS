@@ -23,6 +23,9 @@
     
 }
 
+.prev_next_btn_main{
+    display: none;
+}
  
 // @media only screen and (min-width: 200px) and (max-width: 1024px){
 //     .book_show img{
@@ -32,15 +35,25 @@
 //     }
 // }
 // @media only screen and (min-width: 200px) and (max-width: 992px){
-//     .book_show img{
-//         width: 150px;
-//         height: 220px;
-//         padding: 0px 3px;
-//     }
+   
 // }
-// @media only screen and (min-width: 200px) and (max-width: 767px){
+@media only screen and (min-width: 200px) and (max-width: 767px){
  
-// }
+    .book_show {
+        img{
+           width: 145px;
+           height: 240px;
+           margin: 0 auto;
+        }
+    }
+    .prev_next_btn_main{
+    display: block;
+ }
+
+ .display_book_cata_and_more h2{
+     font-size: 18px !important;
+   }
+}
 
 
 
