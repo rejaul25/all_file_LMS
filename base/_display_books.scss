@@ -46,22 +46,32 @@
     }
  }
 
-@media only screen and (min-width: 200px) and (max-width: 850px){
-    .use_for_mobile{
-        .search_bar{
-            display: block !important;
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    .book_show {
+        img{
+           width: 145px;
+           height: 200px;
+           margin: 0 auto;
+           padding: 0px px;
         }
-     }
-     .search_bar{
-        display: none;
-         }
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 992px){
+    .book_show {
+        img{
+           width: 142px;
+           height: 215px;
+           margin: 0 auto;
+           
+        }
+    }
 }
 @media only screen and (min-width: 200px) and (max-width: 767px){
  
     .book_show {
         img{
            width: 145px;
-           height: 240px;
+           height: 220px;
            margin: 0 auto;
         }
     }
