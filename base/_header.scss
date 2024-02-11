@@ -44,6 +44,9 @@ common button
         border-bottom: 1px solid black;
         padding: 8px 0px;
     }
+    li:last-child{
+        border-bottom: none;
+    }
  }
 .web_logo a {
     text-decoration: none;
