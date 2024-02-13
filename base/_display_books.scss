@@ -1,0 +1,69 @@
+
+.display_book_cata_and_more{ 
+    margin: 30px 0px 0px 0px;
+    text-transform: uppercase;
+     
+}
+.display_book_cata_and_more h2{
+ margin: 25px 0px;
+}
+.display_book_cata_and_more a{
+  margin-top: 33px;
+  font-size: 18px;
+  font-weight: 600;
+  color: green;
+}
+.book_show img{
+    width: 168px;
+    height: 220px;
+     
+}
+.container.books_show_main {
+    width: 96.5%;
+    
+}
+
+.prev_next_btn_main{
+    display: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 222;
+    padding: 10px 0px;
+    background: #436850 !important;
+    color: #fff;
+    opacity: 1 !important;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+ .use_for_mobile{
+    .search_bar{
+        display: none ;
+    }
+ }
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    .book_show {
+        img{
+           width: 145px;
+           height: 200px;
+           margin: 0 auto;
+           padding: 0px px;
+        }
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 991px){
+  
+    .use_for_mobile{
+        .search_bar{
+            display: block ;
+        }
+     }
+}
+
+
+

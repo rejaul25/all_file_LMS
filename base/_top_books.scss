@@ -1,0 +1,57 @@
+
+
+
+.top_books_and_focus{
+    background: #f2f2f2;
+   
+    border-radius: 6px;
+}
+.top_books_and_focus_top img{
+    float: left;
+    margin: -25px 15px 0px 12px;
+    width: 160px;
+    height: 250px;
+    
+}
+.top_books_and_focus_top p{
+    width: 100%;
+    font-size: 16px;
+    padding-left: 12px;
+     
+}
+
+.top_books_and_focus_top h2{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.writer_name{
+    background: #dfdcdc;
+    border-radius: 0px 0px 6px 6px;
+    color: black;
+}
+.writer_name h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+
+// 
+
+@media only screen and (min-width: 200px) and (max-width: 768px){
+    .top_books_and_focus_top  {
+         
+       padding: 15px 0px;
+         
+        img{
+            height: 240px;
+            padding: 8px 0px;
+            margin-top: -60px;
+        }
+        
+    }
+}
+
