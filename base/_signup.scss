@@ -1,0 +1,167 @@
+
+.sign_up_form_main{
+    max-width: 650px;
+    height: auto;
+    padding: 15px 8px;
+    // background: lightgrey;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shift_group,.dep_group{
+    label,label{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.form_head{
+    .ins_name{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 14px;
+        .form_name{
+            font-size: 18px;
+        }
+    }
+    .motivation_text{
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: -12px;
+    }
+    
+}
+
+// .custom_width{
+//     width: 70% !important;
+// }
+// .custom_width2{
+//     width: 45% !important;
+// }
+
+
+.shift_dep{
+    font-size: 13px;
+    font-weight: 500;
+}
+.personal_det_group,.reg_area{
+    padding: 8px 0px;
+    label,label{
+        font-size: 14px;
+        span{
+            font-size: 9px;
+            font-weight: 500;
+        }
+    }
+    input{
+        background: none;
+        border: none;
+        border-bottom: dotted;
+        width: 100%;
+        outline: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 0px 3px;
+    }
+}
+ 
+.border_none_imp{
+    border: none !important;
+    font-size: 12px !important;
+}
+
+.agreement{
+    input{
+        width: 35px;
+        margin-right: 12px;
+    }
+}
+
+.submit_btn{
+    button{
+        width: 100%;
+        padding: 12px 0px;
+        border: none;
+         font-weight: 500;
+         color: #fff;
+         background: rgb(27, 95, 27);
+         
+    }
+}
+ 
+// it's avaiable when the form is submited by user. Otherwise it's hidden for user
+.for_reg {
+    label{
+        font-size: 14px !important;
+    }
+   input{
+    width: 38% !important;
+   }
+}
+ 
+ .reg_signature{
+    p{
+        padding: 2px 0px;
+        border-top: 2px solid black;
+    }
+ }
+
+ .img_control{
+    width: 130px;
+    height: 50px;
+    
+ }
+
+ .member_img img{
+    width: 120px;
+    height: 120px;
+ }
+
+ /*submited form start here*/
+    // when user submit reg. fortm all data add here
+
+.submited_form_head{
+    .ins_name{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .form_name{
+        font-size: 20px !important;
+    }
+    .motivation_text{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+}
+
+.member_data{
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+
+ /*submited form start here*/
+
+
+
+ 
+ @media only screen and (min-width: 200px) and (max-width: 768px){
+    .sign_up_form_main{
+        max-width: 650px;
+        height: auto;
+       
+    }
+ }
+ 
+ @media only screen and (min-width: 200px) and (max-width: 550px){
+    .sign_up_form_main{
+        max-width: 650px;
+        height: auto;
+       
+    }
+ }
