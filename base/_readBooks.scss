@@ -1,0 +1,80 @@
+
+
+
+// booking book show left side
+
+.booking_book_left{
+
+    background: rgba($color: #745f04, $alpha: 0.2);
+    
+}
+
+.booking_img{
+  
+    img{
+        width: 70%;
+        height: 380px;
+        margin-top: 35px;
+    }
+}
+
+.booking_criteria{
+    background: #f2f2f2;
+    padding: 12px 0px;
+    h2{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+         
+        span{
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+    }
+
+    form{
+       
+        .for_booking{
+           
+            label{
+                width: 100%;
+                 padding: 6px 0px;
+            }
+    
+            input{
+                width: 60%;
+                outline: none;
+                padding: 6px 8px;
+                margin-top: 4px;
+                background: none;
+                font-size: 18px;
+                border: 1px solid black;
+            }
+            
+          
+        }
+
+        button{
+            padding: 8px 25px;
+            border: none;
+            background: darkgoldenrod;
+            color: #fff;
+            font-weight: 600;
+            margin-top: 12px;
+            border-radius: 3px;
+        
+        }
+       
+    }
+   
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+   .booking_criteria{
+    margin-top: 10px;
+   } 
+    
+}

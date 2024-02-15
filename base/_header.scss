@@ -171,6 +171,55 @@ common button
     
 }
 
+@media only screen and (min-width: 200px) and (max-width: 420px){
+ 
+
+    .web_logo a {
+        h1{
+            font-size: 15px;
+            font-weight: 600;
+         }
+         h2{
+            font-size: 12px;
+         }
+    }
+
+
+    .login_signUp{
+
+        display: flex;
+        
+         .log_in{
+            background: green;
+            height: 30px;
+            font-size: 10px;
+            padding: 6px 12px;
+            width: 50%;
+            text-align: center;
+            margin-right: 5px;
+         }
+    
+        .sign_up{
+   
+           
+             font-size: 11px !important;
+             width: 60% !important;
+             padding: 5px 10px !important;
+             height: 28px;
+             text-align: center;
+           
+           
+        }
+     
+ 
+
+
+
+}
+
+
+ 
+}
 
 
  

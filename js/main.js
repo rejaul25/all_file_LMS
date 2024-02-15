@@ -55,6 +55,13 @@ $(document).ready(function () {
             slidesToShow: 2,
             slidesToScroll: 1,
           }
+        },
+        {
+          breakpoint: 390,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
         }
        
       ] 
@@ -67,7 +74,6 @@ $(document).ready(function () {
       autoplay: true,
       autoplaySpeed: 3000,
       arrows: false,
-   
       responsive: [
         {
           breakpoint: 1024,
@@ -97,6 +103,13 @@ $(document).ready(function () {
           breakpoint: 480,
           settings: {
             slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 390,
+          settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
           }
         }
@@ -144,6 +157,13 @@ $(document).ready(function () {
           breakpoint: 480,
           settings: {
             slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 390,
+          settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
           }
         }
@@ -212,7 +232,18 @@ $(document).ready(function () {
               slidesToShow: 2,
               slidesToScroll: 1,
             }
+          } ,
+          
+          {
+            breakpoint: 390,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
           }
+       
+       
+        
          
         ] 
       });
@@ -253,6 +284,15 @@ $(document).ready(function () {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+          ,
+          
+          {
+            breakpoint: 390,
+            settings: {
+              slidesToShow: 1,
               slidesToScroll: 1,
             }
           }
@@ -299,6 +339,14 @@ $(document).ready(function () {
                   slidesToScroll: 1,
                 }
               }
+              ,
+              {
+                breakpoint: 390,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              }
              
             ] 
           });
@@ -339,6 +387,14 @@ $(document).ready(function () {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+          ,
+          {
+            breakpoint: 390,
+            settings: {
+              slidesToShow: 1,
               slidesToScroll: 1,
             }
           }
@@ -385,6 +441,15 @@ $(document).ready(function () {
                   slidesToScroll: 1,
                 }
               }
+              ,
+          
+              {
+                breakpoint: 390,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                }
+              }
              
             ] 
           });
@@ -425,6 +490,14 @@ $(document).ready(function () {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+          ,
+          {
+            breakpoint: 390,
+            settings: {
+              slidesToShow: 1,
               slidesToScroll: 1,
             }
           }
